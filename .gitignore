@@ -35,3 +35,7 @@ Desktop.ini
 
 # Ignore local appSettings
 appsettings.Local.json
+/TalkNest.Api/appsettings.Docker.json
+/TalkNest.Api/appsettings.json
+/TalkNest.Api/Properties/launchSettings.json
+/docker-compose.yml
