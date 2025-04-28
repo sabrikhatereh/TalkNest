@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalkNest.Api", "TalkNest.Api\TalkNest.Api.csproj", "{23440D32-4263-40D4-BFAE-5ECA67C51434}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalkNest.Application", "TalkNest.Application\TalkNest.Application.csproj", "{35E2B274-1697-49CE-B073-3379EE1D4476}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalkNest.Core", "TalkNest.Core\TalkNest.Core.csproj", "{5CAED608-3499-4980-96BA-F5DC51F3FF3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalkNest.Infrastructure", "TalkNest.Infrastructure\TalkNest.Infrastructure.csproj", "{3F8A5F97-8A84-4576-A1AB-A6D84FA74B64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalkNest.UnitTests", "TalkNest.UnitTests\TalkNest.UnitTests.csproj", "{4E400874-1FBE-4B92-8D64-39D8D9CC25C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TalkNest.IntegrationTests", "TalkNest.IntegrationTests\TalkNest.IntegrationTests.csproj", "{2AEB0769-4349-4022-A31E-95BD158678A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23440D32-4263-40D4-BFAE-5ECA67C51434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23440D32-4263-40D4-BFAE-5ECA67C51434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23440D32-4263-40D4-BFAE-5ECA67C51434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23440D32-4263-40D4-BFAE-5ECA67C51434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E2B274-1697-49CE-B073-3379EE1D4476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E2B274-1697-49CE-B073-3379EE1D4476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E2B274-1697-49CE-B073-3379EE1D4476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E2B274-1697-49CE-B073-3379EE1D4476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAED608-3499-4980-96BA-F5DC51F3FF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAED608-3499-4980-96BA-F5DC51F3FF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAED608-3499-4980-96BA-F5DC51F3FF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAED608-3499-4980-96BA-F5DC51F3FF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8A5F97-8A84-4576-A1AB-A6D84FA74B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8A5F97-8A84-4576-A1AB-A6D84FA74B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8A5F97-8A84-4576-A1AB-A6D84FA74B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8A5F97-8A84-4576-A1AB-A6D84FA74B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E400874-1FBE-4B92-8D64-39D8D9CC25C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E400874-1FBE-4B92-8D64-39D8D9CC25C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E400874-1FBE-4B92-8D64-39D8D9CC25C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E400874-1FBE-4B92-8D64-39D8D9CC25C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEB0769-4349-4022-A31E-95BD158678A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEB0769-4349-4022-A31E-95BD158678A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEB0769-4349-4022-A31E-95BD158678A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEB0769-4349-4022-A31E-95BD158678A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F89A4AB6-1274-4DB2-9EF2-66A58A6F34B2}
+	EndGlobalSection
+EndGlobal
