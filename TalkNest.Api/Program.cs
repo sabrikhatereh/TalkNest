@@ -28,10 +28,7 @@ namespace TalkNest
         {
             using (var scope = host.Services.CreateScope())
             {
-                var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Development";
-
                 var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-                logger.LogWarning(environment);
                 var dbContext = scope.ServiceProvider.GetRequiredService<TalkNestWriteDbContext>();
                 var pendingMigrations = await dbContext.Database.GetPendingMigrationsAsync();
                 try

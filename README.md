@@ -110,11 +110,8 @@ The solution introduces custom exceptions to encapsulate specific application lo
 - **Validation**: FluentValidation
 - **Architecture**: Onion Architecture, CQRS
 - **API Management**: API Versioning, Swagger
-- **Database**:
-  -Sqlite
-      - ApplicationReadDb (for reads)
-      - DOCOsoftWriteDbContext (for writes)
-- **Testing**: xUnit, Moq
+- **Database**: PostgreSQL
+- **Testing**: xUnit, Moq, Testcontainers
 
 ---
 ### **Handling Forbidden Words**
@@ -138,16 +135,6 @@ This will build (if needed) and start all services.
 - http://127.0.0.1:8000/swagger/index.html
 
 3.Host API + PostgreSQL using Docker Compose	
-
-3. **Configuration**:
-   - It is possible to modify `appsettings.json` to change logging, caching, API versioning if needed.
-   Before starting, make sure you have installed:
-
-.NET 8 SDK
-
-Docker
-
-Docker Compose
 
 ---
 
